@@ -1,7 +1,7 @@
 import { createExtension } from '@ohbug/core'
 import Perfume from 'perfume.js'
 
-export const extension = createExtension({
+const extension = createExtension({
   name: 'OhbugExtensionPerfume',
   init: (client) => {
     new Perfume({
@@ -18,3 +18,5 @@ export const extension = createExtension({
     })
   },
 })
+
+export default extension

@@ -1,6 +1,10 @@
 {
+  "ohbug": {
+    "name": "OhbugExtensionPerfume",
+    "key": "perfume"
+  },
   "name": "@ohbug/extension-perfume",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Ohbug extension to collect performance information",
   "author": "chenyueban <jasonchan0527@gmail.com>",
   "homepage": "https://github.com/ohbug-org/ohbug-extension-perfume",
@@ -12,10 +16,10 @@
     "url": "https://github.com/ohbug-org/ohbug-extension-perfume"
   },
   "license": "MIT",
-  "main": "dist/ohbug-extension-perfume.cjs.prod.js",
-  "module": "dist/ohbug-extension-perfume.esm.prod.js",
-  "unpkg": "dist/ohbug-extension-perfume.global.prod.js",
-  "jsdelivr": "dist/ohbug-extension-perfume.global.prod.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "jsdelivr": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
