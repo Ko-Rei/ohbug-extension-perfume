@@ -5,7 +5,6 @@ const extension = createExtension({
   name: 'OhbugExtensionPerfume',
   init: (client) => {
     new Perfume({
-      resourceTiming: true,
       analyticsTracker: (options) => {
         const { metricName, data } = options
         const event = client.createEvent({
